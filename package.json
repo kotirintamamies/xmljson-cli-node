@@ -1,0 +1,30 @@
+{
+  "name": "xmljson-cli-node",
+  "version": "1.0.0",
+  "description": "Converts xml file to json file. Run with: node xmljson <xml file> <json file>",
+  "main": "xmljson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotirintamamies/xmljson-cli-node.git"
+  },
+  "dependencies": 
+  {
+	"xml-to-json": "latest",
+	"commander": "latest"
+  }
+  "keywords": [
+    "xml",
+    "json",
+    "node",
+    "convert"
+  ],
+  "author": "Sebastian Laitila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kotirintamamies/xmljson-cli-node/issues"
+  },
+  "homepage": "https://github.com/kotirintamamies/xmljson-cli-node#readme"
+}
